@@ -1,0 +1,202 @@
+{
+	"id": "6a82ba9e7a9c8342d0d9de854c7e436e",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.25",
+	"solcLongVersion": "0.8.25+commit.b61c2a91",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/EnumDeclaration.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nenum Build_DSG {\n        log, //0\n        ironframe_concrete, //1\n        rebar_concrete, //2\n        stone, //3\n        pc, //4\n        wood_based, //5\n        brick, //6\n        cement_brick, //7\n        ocher, //8\n        ironframe, //9\n        steel_house, //10\n        reinforced_concrete, //11\n        wood, //12\n        cement_block, //13\n        light_steel_frame, //14\n        iron_pipe, //15\n        lime_mud_others //16\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/EnumDeclaration.sol": {
+				"ast": {
+					"absolutePath": "contracts/EnumDeclaration.sol",
+					"exportedSymbols": {
+						"Build_DSG": [
+							19
+						]
+					},
+					"id": 20,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:23:0"
+						},
+						{
+							"canonicalName": "Build_DSG",
+							"id": 19,
+							"members": [
+								{
+									"id": 2,
+									"name": "log",
+									"nameLocation": "82:3:0",
+									"nodeType": "EnumValue",
+									"src": "82:3:0"
+								},
+								{
+									"id": 3,
+									"name": "ironframe_concrete",
+									"nameLocation": "99:18:0",
+									"nodeType": "EnumValue",
+									"src": "99:18:0"
+								},
+								{
+									"id": 4,
+									"name": "rebar_concrete",
+									"nameLocation": "131:14:0",
+									"nodeType": "EnumValue",
+									"src": "131:14:0"
+								},
+								{
+									"id": 5,
+									"name": "stone",
+									"nameLocation": "159:5:0",
+									"nodeType": "EnumValue",
+									"src": "159:5:0"
+								},
+								{
+									"id": 6,
+									"name": "pc",
+									"nameLocation": "178:2:0",
+									"nodeType": "EnumValue",
+									"src": "178:2:0"
+								},
+								{
+									"id": 7,
+									"name": "wood_based",
+									"nameLocation": "194:10:0",
+									"nodeType": "EnumValue",
+									"src": "194:10:0"
+								},
+								{
+									"id": 8,
+									"name": "brick",
+									"nameLocation": "218:5:0",
+									"nodeType": "EnumValue",
+									"src": "218:5:0"
+								},
+								{
+									"id": 9,
+									"name": "cement_brick",
+									"nameLocation": "237:12:0",
+									"nodeType": "EnumValue",
+									"src": "237:12:0"
+								},
+								{
+									"id": 10,
+									"name": "ocher",
+									"nameLocation": "263:5:0",
+									"nodeType": "EnumValue",
+									"src": "263:5:0"
+								},
+								{
+									"id": 11,
+									"name": "ironframe",
+									"nameLocation": "282:9:0",
+									"nodeType": "EnumValue",
+									"src": "282:9:0"
+								},
+								{
+									"id": 12,
+									"name": "steel_house",
+									"nameLocation": "305:11:0",
+									"nodeType": "EnumValue",
+									"src": "305:11:0"
+								},
+								{
+									"id": 13,
+									"name": "reinforced_concrete",
+									"nameLocation": "331:19:0",
+									"nodeType": "EnumValue",
+									"src": "331:19:0"
+								},
+								{
+									"id": 14,
+									"name": "wood",
+									"nameLocation": "365:4:0",
+									"nodeType": "EnumValue",
+									"src": "365:4:0"
+								},
+								{
+									"id": 15,
+									"name": "cement_block",
+									"nameLocation": "384:12:0",
+									"nodeType": "EnumValue",
+									"src": "384:12:0"
+								},
+								{
+									"id": 16,
+									"name": "light_steel_frame",
+									"nameLocation": "411:17:0",
+									"nodeType": "EnumValue",
+									"src": "411:17:0"
+								},
+								{
+									"id": 17,
+									"name": "iron_pipe",
+									"nameLocation": "443:9:0",
+									"nodeType": "EnumValue",
+									"src": "443:9:0"
+								},
+								{
+									"id": 18,
+									"name": "lime_mud_others",
+									"nameLocation": "467:15:0",
+									"nodeType": "EnumValue",
+									"src": "467:15:0"
+								}
+							],
+							"name": "Build_DSG",
+							"nameLocation": "62:9:0",
+							"nodeType": "EnumDefinition",
+							"src": "57:432:0"
+						}
+					],
+					"src": "32:457:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

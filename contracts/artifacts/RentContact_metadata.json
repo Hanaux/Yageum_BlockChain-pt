@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RentContact.sol": "RentContact"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EnumDeclaration.sol": {
+			"keccak256": "0x41da0c8ab31ed4a02b3191f7d14139ddf2d7c5d120237fe8c8dbd0157a2d1df8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dae5d467086230851ba8f8af727ea3672ab01a4f580aad74dc0726559b5c3731",
+				"dweb:/ipfs/QmNwjj3eTZrzWaekuxavTyeSrVnHxuFqtrLGGgqMKAkLbv"
+			]
+		},
+		"contracts/RentContact.sol": {
+			"keccak256": "0x53fd981f0063866fd8864c547afcd336ccdf74811f729396a805373ac12c361d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66ac5e5e5959592715f83d596d95cd01c040d069bc082b2071b2d9bb07c77191",
+				"dweb:/ipfs/QmVmySGu3bcF2GxELguRLpxkn41qpKB3tUGTzkJbw3wK2P"
+			]
+		}
+	},
+	"version": 1
+}
