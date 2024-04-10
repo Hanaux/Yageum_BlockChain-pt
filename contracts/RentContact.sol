@@ -69,9 +69,37 @@ contract RentContact{
         string repair_while_tenant; // 임차인 부담
     }
 
-    // struct Special_Contract{
-    //     // string 
-    // }
+    struct Special_Contract{
+        string addr_change_date; // 전입신고 및 확정일자 데드라인 YYYY.MM.DD
+        uint unpaid_tax; // 임대차 체결 시 금전 기타 물건을 포기하지 않고 임대차계약 해제할 수 있는 미납 및 체납 국세,지방세 초과액 기준
+        bool reconciliaton_agreement; // 주택임재차계약 관련 분쟁 발생 시 법원 소 제기 전 조정 신청 동의 여부
+        string rebuilding_plan; // 값 없으면 없음으로 체크, 있는 경우 공사시기와 소요기간을 YYYY.MM.DD.PP로 표기
+        bool detailed_addr_agreement; // 상세주소가 없는 경우 임차인 상세주소 부여 신청에 대한 소유자 동의 여부
+        string others; // 기타 특약 작성
+    }
+
+    struct lessor_tenant_info{
+        //계약체결일
+        string tenant_date; // YYYY.MM.DD
+        //lessor 정보 
+        string lessor_addr;
+        string lessor_id;
+        string lessor_pn;
+        string lessor_name;
+        string lessor_agent_addr;
+        string lessor_agent_id;
+        string lessor_agent_name;
+        string lessor_sign;
+        //tenant 정보
+        string tenant_addr;
+        string tenant_id;
+        string tenant_pn;
+        string tenant_name;
+        string tenant_agent_addr;
+        string tenant_agent_id;
+        string tenant_agent_name;
+        string tenant_sign;
+    }
 
 
 

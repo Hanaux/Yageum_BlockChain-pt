@@ -41,11 +41,11 @@
 			]
 		},
 		"contracts/RentContact.sol": {
-			"keccak256": "0xe029d4c87ae349a81fc4a4288e46522e7ff574bf8332f88c88acf347787e625f",
+			"keccak256": "0x92e7f77c79b98eb9690bc64514278284bed48db3b76a1b3370f6871f916e121a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://155d257955416579cad5f5468c5cb1fb9b653fc43be5ff7e24e3ba0540eb4a4d",
-				"dweb:/ipfs/QmdZFN68pYjuAkLBEVe2i54k8sq9sj34fajSshjqioEf2f"
+				"bzz-raw://809373c62b2299121a94f6b301a12269fad35097e860870f1b42f5aee5cf2860",
+				"dweb:/ipfs/QmRhguVsDWGGpk6VHY5pWpwdMHMNd1PoZccWdyQmrZ5S2a"
 			]
 		}
 	},
